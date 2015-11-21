@@ -1,0 +1,64 @@
+/*
+CSS for resume
+*/
+
+/*
+main styles...................................................................
+*/
+
+body {
+width: 100%;
+background-color: #000;
+}
+
+	
+p {
+font-family: 'Raleway', serif;
+font-size: 1em; 
+color: #fdfdfd;
+width:625px;
+margin-left: 10px;
+}
+
+
+h1{
+	color:#fdfdfd;
+	margin-left: 20px;
+}
+
+h2{
+	color:#fdfdfd;
+	margin-left: 20px;
+}
+
+h3{
+	color:#fdfdfd;
+	margin-left: 20px;
+	
+}
+#clearfix{
+	clear:both;
+}
+
+/*
+media queries...................................................................
+*/
+
+/* tablet portrait size to standard 960 (devices and browsers)*/
+@media screen and (min-width: 768px) and (max-width: 959px) {
+
+}
+/* mobile landscape size to tablet portrait (devices and browsers)*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+}
+
+
+/* mobile portrait size to mobile landscape size (devices and browsers)*/
+@media only screen and (max-width: 479px) {
+
+
+}
+
+
